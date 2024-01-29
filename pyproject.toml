@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "projetoferias"
+version = "0.1.0"
+description = ""
+authors = ["Clev Pires <cleverson.pires@juntossomosmais.com.br>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^5.0.1"
+djangorestframework = "^3.14.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.1.14"
+black = "^24.1.1"
+pytest = "^8.0.0"
+pytest-django = "^4.7.0"
+pytest-mock = "^3.12.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
